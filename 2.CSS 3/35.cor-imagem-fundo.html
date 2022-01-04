@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cor e imagem de fundo</title>
+
+			<style type="text/css">
+
+				body {
+					background-image: url('imagens/amazon.png');
+						/*O padrão dessa propriedade é de repetições tanto
+						na horizontal quanto na vertical tendo outras funções:*/
+					background-repeat: no-repeat;
+				/*	background-repeat: repeat-x
+					background-repeat: repeat-y
+				*/
+					background-attachment: fixed;
+						/*ou scroll para a imagem rolar juntamente com o conteúdo*/
+					background-position: center center;
+				/*	O primeiro valor é para alinhamentos horizontais, o segundo para alinhamento vertical
+					left ..... para alinhar à esquerda
+					right..... para alinhar à direita
+					top ...... para alinhar à no topo
+					bottom ... para alinhar à baixo
+				*/
+				}
+
+				.fundo {				
+				background: silver url('imagens/amazon.png') no-repeat fixed center top; /* Usando cor e imagem com fundo ao mesmo tempo */
+				/*ou
+				background-color: blue;
+				*/
+				}
+			
+			</style>
+
+	</head>
+	<body class="fundo">
+		<h1 class="fundo">Conteúdo de título</h1>
+
+		<p>
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		</p>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<p>
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		</p>
+				
+	</body>
+</html>

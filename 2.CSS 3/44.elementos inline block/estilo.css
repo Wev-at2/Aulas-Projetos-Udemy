@@ -1,0 +1,9 @@
+.borda {
+	border: 1px solid red;
+	padding: 10PX;
+	/*
+	display: inline;
+	display: block;
+	display: inline-block; UM ELEMENTO AO LADO DO OUTRO, MAS SÓ SE TIVER ESPAÇO.
+	*/
+}

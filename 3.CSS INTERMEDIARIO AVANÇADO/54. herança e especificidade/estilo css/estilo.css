@@ -1,0 +1,34 @@
+/*HERANÇA E ESPECIFICIDADE*/
+
+/*HERANÇA*/
+/*
+body { irá formatar tudo dentro de BODY
+	color: red;
+	font-size: 16px;
+	border: 1px	solid blue;
+}
+*/
+
+/*ESPECIFICIDADE*/
+p { /*irá formatar com especificações*/
+	color: orange;
+}
+
+* { /*seletor universal*/
+	color: red;
+}
+
+
+h2 { /*NÍVEL DE PRIORIDADE: 3*/
+	color: blue;
+}
+
+h3.verde { /*NÍVEL DE PRIORIDADE: 2 - sem espaço para não ocorrer conflito*/
+	color: green;
+}
+
+h4#amarelo { /*NÍVEL DE PRIORIDADE: 1 - sem espaço para não ocorrer conflito*/
+	color: yellow;
+}
+
+/*AS PRIORIDADE SÃO AS ESPECIFICAÇÕES E NÃO O GERAL COMO A CLASS*/
