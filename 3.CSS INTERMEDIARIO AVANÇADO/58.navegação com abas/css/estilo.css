@@ -1,42 +1,38 @@
-/*BARRA DE NAVEGAÇÂO HORIZONTAL*/
+/*BARRA DE NAVEGAÇÂO COM ABAS*/
 
-ul { /*formatação geral da "ul"*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	width: 720PX;
-	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
-	float: left;
+	width: 720px;
 }
 
-ul li { /*formatar p/ uma lista horizontal*/
-	/*display:  inline (mais simples)*/
+ul li {	
 	float: left;
+	background: url(../imagens/aba-direita.png) no-repeat top right;
 }
 
-ul a { /*formatando os links dentro da "ul"*/
+ul a {
 	display: block;
 	padding: 0 2em;
-	line-height: 2em;
+	line-height: 3em;
 	text-decoration: none;
+	background: url(../imagens/aba-esquerda.png) no-repeat top left /*top left padrão*/;
 	color: #fff;
-	background: url(../imagens/divisor.png) repeat-y left top /*"left top" já é o padrão*/;
 }
 
-ul .primeiro a { /*classe criada para remover background do primeiro link*/ 
-	background: none;
+ul a:hover {
+	color: #894a1f;
 }
 
-ul a:hover { /*ao passar o o cursor do mouse no link*/
-	color: #085662;
-	background: #44cade;
+ul #atual {
+	background: url(../imagens/aba-direita-atual.png) no-repeat top right;
 }
 
-#home #navegacao .home a,
-#sobre #navegacao .sobre a,
-#servicos #navegacao .servicos a,
-#noticias #navegacao .noticias a,
-#contato #navegacao .contato a {
-	color: #085662;
-	background: #44cade;
+ul #atual a {
+background: url(../imagens/aba-esquerda-atual.png) no-repeat top left
 }
