@@ -1,0 +1,98 @@
+/*Layout Líquido Ou Fluído*/
+
+body { /*fomatação geral do body*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container { /*formatando ID container*/
+	width: 85% /*ou 720px*/;
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px /*mínimo de largura*/;
+	/*max-width: 960px máximo de largura
+	min-height: 500px;
+	max-height: 500px;
+	*/;
+}
+
+#marca { /*formatando ID marca*/
+	width: 100% /*padrão*/;
+	height: 200px;
+	color: 	skyblue;
+	background: #9e9e9e url(../imagens/Fundo-virtual-weverton-costa.png) no-repeat	center	;
+	text-align: center;
+	line-height: 200px;
+}
+
+#conteudo { /*formatação da ID na div*/
+	width: 74% /*520px*/;
+	float: right;
+}
+
+#conteudo-principal { /*formatação da ID na div*/
+ width: 63% /*320px*/;
+ float: left;
+}
+
+#conteudo-secundario { /*formatação da ID na div*/
+	width: 34% /*180px*/;
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario p { /*formatação da ID na div*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#navegacao { /*formatação da ID na div*/
+ 	width: 24% /*180px*/;
+ 	float: left;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	background: #d1d1d1;
+}
+
+#navegacao ul { /*formatando apenas  com a lista dentro dessa ID*/
+	list-style: none;
+}
+
+/*
+ul { formatando todas as listas dentro do Site/Documento
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+*/
+#navegacao li a { /*formatand os lisnks denhtro dos conteudos da listas apenas dessa ID*/
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	line-height: 40px;	
+}
+
+/*
+li a { formatando todos os links dentro dos conteúdos das listas em todos o documento sem especificação
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+*/
+
+li a:hover {
+	background: #fff;
+}
+
+#rodape {
+	clear: both;
+	background: #c4c4c4;
+	padding-bottom: 5px;
+}
