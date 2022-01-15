@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Saúde | Notícias Cidade</title>
+
+	<!-- Estilo externo -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body id="duas-colunas" class="saude">
+<!-- Início container - layout fixo -->
+	<div id="container">
+<!-- Início topo -->
+		<div id="topo">
+			<h1 class="logo">Notícias Cidade</h1>	<!-- o texto servirá para as ferramentas de acessibilidades, pois não é lido os textos das imagens mas sim da estrutura da página -->
+<!-- Início Menu topo -->
+			<ul id="navegacao"> <!-- lista não ordenada -->
+				<li class="primeiro">
+					<a id="home" href="index.html">Home</a>
+				</li>			
+				<li>
+					<a id="brasil" href="brasil.html">Brasil</a></li>
+				<li>
+					<a id="internacional" href="internacional.html">Internacional</a>
+				</li>
+				<li>
+					<a id="economia" href="economia.html">Economia</a>
+				</li>
+				<li>
+					<a id="saude" href="saude.html">Saúde</a>
+				</li>
+				<li>
+					<a id="ciencia" href="ciencia.html">Ciência</a>
+				</li>
+				<li>
+					<a id="fotos" href="fotos.html">Fotos</a>
+				</li>
+			</ul><!-- Fim Menu topo -->
+		</div><!-- Fim topo -->
+<!-- Início Conteúdo -->
+		<div id="conteudo">
+<!-- Início da coluna primária -->
+			<div id="primario">
+<!-- Início Dastque Primário -->
+				<div class="caixa destaque">
+					<h2>Destaque</h2>
+					<div class="caixa-conteudo">
+						<h3>Ô dotô</h3>
+						<img src="imagens/doutor.jpg" width="100%"><!-- o ideal é ter a imagem com varios tamanhos-->
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<a href="doutor.html">Leia mais...</a>						
+					</div>
+				</div><!-- Fim Destaque Primário -->
+<!-- Início Mundo -->
+				<div class="caixa">
+					<h2>Notícias recentes</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticias">	
+							<li>
+								<a href="">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="doutor.html">
+									<img src="imagens/doutor.jpg" width="80">
+									<h3>Ô dotô</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="taxi.html">
+									<img src="imagens/taxi.jpg" width="80">
+									<h3>Cadê o taxi?</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+									</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- Fim Mundo -->
+			</div><!-- Fim da coluna primária -->
+
+<!-- Início Menu lateral -->
+			<div id="lateral"><!-- Por mais que o menu lateral apareça primeiro da esquerda pra direita, deixaremos ele por último por conta da acessibilidade e leitores de tela -->
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li>
+								<a href="tobey.html">Tobey Maguire</a>
+							</li>
+							<li>
+								<a href="andrew.html">Andrew Garfield</a>
+							</li>
+							<li>
+								<a href="tom.hthml">Tom Holland</a>
+							</li>
+							<li>
+								<a href="deadpool.html">Deadpool</a>
+							</li>
+							<li>
+								<a href="weverton.html">Weverton Costa</a>
+							</li>
+							<li>
+								<a href="priscyla.html">Priscyla Costa</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="email">E-mail:</label>
+								<input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+							</div>
+							<div>
+								<input class="submit" type="submit" Value="Cadastrar">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div><!-- Fim Menu lateral -->
+		</div><!-- Fim Conteúdo -->
+	</div><!-- Fim Container -->
+<!-- Início Rodapé -->
+	<div id="container-rodape" style="clear: both;"> <!-- remove o fluxo flutuante-->
+		<div id="rodape">
+			&copy; <!--símbolo de copyright--> Copyright 2022 Notícias Cidade
+		</div>
+	</div><!-- Fim Rodapé -->
+</body>
+</html>
