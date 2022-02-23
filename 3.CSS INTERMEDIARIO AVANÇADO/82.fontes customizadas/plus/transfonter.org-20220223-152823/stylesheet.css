@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Movement';
+    src: url('Movement-Regular.woff2') format('woff2'),
+        url('Movement-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Game Of Squids';
+    src: url('GameOfSquids.woff2') format('woff2'),
+        url('GameOfSquids.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
